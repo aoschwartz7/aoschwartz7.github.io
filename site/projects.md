@@ -1,9 +1,2 @@
-# Language Learner's Quiz
-This project involved using this technique to achieve this goal.
-[Language Learner's Quiz](https://github.com/aoschwartz7/LanguageQuiz)
-
-1. First
-2. Second
-3. Third
-
-*Emphasis*
+## Language Learner's Quiz
+This Python-Flask application uses a JSON representation of German to English and German to Spanish dictionaries to help users learn more introductory German/English/Spanish vocabulary. The inspiration behind it came out of necessity at first. I spent 4 months living in Berlin and studying German in 2019, and another few months in Barcelona in early 2020. I was eager to learn more vocab and figured this would be a fun way to combine two main goals: learn Deutsch and learn how to make a Python-Flask application. To access my Git repository for the game's files and for a more in depth walkthrough, click [here](https://github.com/aoschwartz7/LanguageQuiz).
