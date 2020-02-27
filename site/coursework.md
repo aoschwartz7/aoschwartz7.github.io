@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-Python for Everybody Specialization by University of Michigan on Coursera
-==============
-*An introduction to fundamental programming concepts including data structures,
-networked application program interfaces, and databases, using Python.*
-=======
 Python for Everybody Specialization
 -----------------------
-*Taught by the [University of Michigan on Coursera](https://www.coursera.org/specializations/python), this course is an introduction to fundamental programming concepts including data structures, networked application program interfaces, and databases, using Python.*
+*Taught by the [University of Michigan on Coursera](https://www.coursera.org/specializations/python), this course provides an introduction to fundamental programming concepts including data structures, networked application program interfaces, and databases, using Python.*
 
->>>>>>> 0d523b114f1b2fb504d54387ea72cc99fb28e553
 -----------------------
 *   Conditional Execution
     *   Calculating an employee's gross pay [payrollFunction.py](https://github.com/aoschwartz7/Coursera-Python-Specialization/blob/master/payrollFunction.py)
@@ -31,8 +24,7 @@ Python for Everybody Specialization
 
 CS50: Introduction to Computer Science
 ----------------------- 
-
-*[Harvard University's CS50x](https://online-learning.harvard.edu/course/cs50-introduction-computer-science) teaches students how to think algorithmically and solve problems efficiently.*
+*[Harvard University's CS50x](https://online-learning.harvard.edu/course/cs50-introduction-computer-science) teaches students how to think algorithmically and solve problems efficiently while learning about abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development.*
 
 -----------------------
 *   Building Mario's pyramids in C and Python [Mario.c](https://github.com/aoschwartz7/CS50/blob/master/mario.c) [Mario.py](https://github.com/aoschwartz7/CS50/blob/master/mario.py)
