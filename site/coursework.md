@@ -1,7 +1,7 @@
-Coursera's Python for Everybody Specialization
-==============
-*An introduction to fundamental programming concepts including data structures,
-networked application program interfaces, and databases, using Python.*
+Python for Everybody Specialization
+-----------------------
+*Taught by the [University of Michigan on Coursera](https://www.coursera.org/specializations/python), this course is an introduction to fundamental programming concepts including data structures, networked application program interfaces, and databases, using Python.*
+
 -----------------------
 *   Conditional Execution
     *   Calculating an employee's gross pay [payrollFunction.py](https://github.com/aoschwartz7/Coursera-Python-Specialization/blob/master/payrollFunction.py)
@@ -23,8 +23,9 @@ networked application program interfaces, and databases, using Python.*
     *   Prompting user for a search string, calling Google geocoding API, and extracting information from the returned JSON [GeoJSONAPI.py](https://github.com/aoschwartz7/Coursera-Python-Specialization/blob/master/GeoJSONAPI.py)
 
 Harvard University's CS50: Introduction to Computer Science
-==============
-*CS50x teaches students how to think algorithmically and solve problems efficiently.*
+----------------------- 
+
+*[Harvard University's CS50x](https://online-learning.harvard.edu/course/cs50-introduction-computer-science) teaches students how to think algorithmically and solve problems efficiently.*
 
 -----------------------
 *   Building Mario's pyramids in C and Python [Mario.c](https://github.com/aoschwartz7/CS50/blob/master/mario.c) [Mario.py](https://github.com/aoschwartz7/CS50/blob/master/mario.py)
