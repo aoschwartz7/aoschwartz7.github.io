@@ -1,4 +1,4 @@
-Coursera's Python for Everybody Specialization
+Python for Everybody Specialization by University of Michigan on Coursera
 ==============
 *An introduction to fundamental programming concepts including data structures,
 networked application program interfaces, and databases, using Python.*
