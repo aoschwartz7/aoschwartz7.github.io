@@ -1,2 +1,0 @@
-### Language Learner's Quiz
-This [Python-Flask application](https://github.com/aoschwartz7/LanguageQuiz) uses JSON representations of vocabulary dictionaries to help users learn a language via flashcards. The inspiration behind it came from living in Berlin, Germany, in the Fall of 2019 where I was taking language courses. To access my Git repository for the game's files and for a more in depth walkthrough, click [here](https://github.com/aoschwartz7/LanguageQuiz).
