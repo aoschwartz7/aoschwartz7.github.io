@@ -22,7 +22,7 @@ Python for Everybody Specialization
 *   Using Web Services
     *   Prompting user for a search string, calling Google geocoding API, and extracting information from the returned JSON [GeoJSONAPI.py](https://github.com/aoschwartz7/Coursera-Python-Specialization/blob/master/GeoJSONAPI.py)
 
-Harvard University's CS50: Introduction to Computer Science
+CS50: Introduction to Computer Science
 ----------------------- 
 
 *[Harvard University's CS50x](https://online-learning.harvard.edu/course/cs50-introduction-computer-science) teaches students how to think algorithmically and solve problems efficiently.*
