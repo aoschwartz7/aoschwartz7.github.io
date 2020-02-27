@@ -2,7 +2,7 @@
 layout: default
 title: Alec
 ---
-###Python for Everybody Specialization
+Python for Everybody Specialization
 -----------------------
 *Taught by the [University of Michigan on Coursera](https://www.coursera.org/specializations/python), this course provides an introduction to fundamental programming concepts including data structures, networked application program interfaces, and databases, using Python.*
 
@@ -26,7 +26,7 @@ title: Alec
 *   Using Web Services
     *   Prompting user for a search string, calling Google geocoding API, and extracting information from the returned JSON [GeoJSONAPI.py](https://github.com/aoschwartz7/Coursera-Python-Specialization/blob/master/GeoJSONAPI.py)
 
-###CS50: Introduction to Computer Science
+CS50: Introduction to Computer Science
 -----------------------
 *[Harvard University's CS50x](https://online-learning.harvard.edu/course/cs50-introduction-computer-science) teaches students how to think algorithmically and solve problems efficiently while learning about abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development.*
 

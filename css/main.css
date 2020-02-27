@@ -37,11 +37,13 @@ h4 {
 }
 
 p {
-    text-indent: 40px;
     font-size: 1.3em;
     line-height: 1.4em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif'
     color: #333;
+}
+.indent {
+  text-indent: 40px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
