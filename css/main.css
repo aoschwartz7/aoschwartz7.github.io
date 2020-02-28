@@ -40,6 +40,12 @@ h5 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+.header-date {
+  text-indent: 40px;
+  font-size: 1.75em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 p {
     font-size: 1.3em;
     line-height: 1.4em;
