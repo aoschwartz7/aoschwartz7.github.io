@@ -2,7 +2,7 @@
 layout: default
 title: Alec
 ---
-##### Python for Everybody Specialization <text class="header-date">June-July 2019</text>
+##### Python for Everybody Specialization <div class="header-date" markdown="1">June-July 2019</div>
 *Taught by the [University of Michigan on Coursera](https://www.coursera.org/specializations/python), this course provides an introduction to fundamental programming concepts including data structures, networked application program interfaces, and databases, using Python.*
 
 -----------------------
