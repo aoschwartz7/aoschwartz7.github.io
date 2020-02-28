@@ -51,12 +51,14 @@ span c { font-size: .65em;
          padding: 15px;
 }
 p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.4em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif'
     color: #333;
 }
 #text {
+    font-size: 1.2em;
+    line-height: 1.4em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif'
     color: #333;
 }
