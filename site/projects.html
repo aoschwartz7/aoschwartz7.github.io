@@ -3,20 +3,65 @@ layout: default
 title: Alec Schwartz
 ---
 <hr />
-<span>Language Learner's Quiz<c>November-January 2020</c></span>
-<p>
-<em>This <a href="https://github.com/aoschwartz7/LanguageQuiz">Python-Flask application</a>
-  uses JSON representations of vocabulary dictionaries to help users learn a language via flashcards.
-  The inspiration behind it came from living in Berlin, Germany, in the Fall of 2019 where I was taking
-  language courses. To access my Git repository for the game's files and for a more in depth walkthrough,
-  click <a href="https://github.com/aoschwartz7/LanguageQuiz">here</a>.</em>
-</p>
-
-<img src="/site/WalkthroughTerminalimage.png" alt="Language Learner's App" width="500" height="333">
+<span>Identifying Snakes in Photos Using Machine Learning<c>July 2020--Present</c></span>
+  <p>
+    <em>
+      <a href="">Professor Scott Boback of Dickinson College</a> is studying patterns in rattlesnake basking activity.
+      Using wildlife cameras focused on den entrances, he remotely collects images every 15 minutes from sunup to sundown
+      in the spring and fall. Currently, analysis is quite cumbersome. Each photo is closely examined by eye to see if
+      snakes are present. Some are snake-less. Some reveal piles of camouflaged snakes. If the examiner spots one, they
+      manually annotate it with a small, yellow arrow. Finally, these annotations get compiled to track frequency counts
+      and time of day measurements.
+    </em>
+  </p>
+  <p>
+    <em>
+      I am using machine learning to build a custom object detection model for automating this process.
+      Technology I am using includes: TensorFlow, Keras, LabelIMG, ImageAI, and the object detection system YOLO.
+      Code for this project uses Google Colab for access to Google’s GPUs. The dataset for model training can be found
+      <a href="https://github.com/aoschwartz7/ML_Snakes">here</a> on GitHub.
+    </em>
+  </p>
 
 <hr />
-<span>Twilio Riddler<c>March 2020</c></span>
-<p>
-<em>This <a href="https://github.com/aoschwartz7/Twilio">Python-Flask application</a> sends a user an SMS of a random riddle, listens for their response via a Twilio webhook,
-and sends either the answer or a new riddle. It was built using Flask architecture and <a href="https://www.twilio.com/docs/sms/tutorials/how-to-send-sms-messages-python">Twilio’s</a> Programmable SMS API and Python helper library. 
-</em></p>
+  <span>NIH NIDDK Covid-19 Open-source Contribution<c>July 2020</c></span>
+    <p>
+      <em>Many Covid-19 infections remain unreported due to mildness of symptoms and/or inadequate testing.
+      <a href="https://www.niddk.nih.gov/about-niddk/staff-directory/biography/chow-carson">Carson Chow’s lab at the NIH</a>
+      along with <a href="https://sols.asu.edu/richard-gerkin">Rick Gerkin of Arizona State University</a> are using Bayesian inference
+      and a modified SIR model to predict the number of unreported infected individuals from reported cases, recoveries, and deaths.
+      <a href="https://github.com/nih-niddk-mbs/covid-sicr">Their code</a> uses a suite of models of varying complexity to
+      calculate these numbers for different regions,and then produces an average result across models for each region.
+      For a preprint of their paper, click <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7239078/">here</a> .
+      </em>
+    </p>
+    <p>
+      <em>My task was to produce an average result for a user-defined super-region, like “Asia”,
+        “Southern Asia”, or the United States, for example. I familiarized myself with Pandas,
+        using it to parse information on world countries into a format useful for the researchers’
+        existing scripts. I then modified their <a href="https://github.com/nih-niddk-mbs/covid-sicr/pull/7">existing code</a>
+        to include a parameter for selecting a super-region and extending the results to region-indexed tables.
+      </em>
+    </p>
+
+
+<hr />
+  <span>Language Learner's Quiz<c>November-January 2020</c></span>
+    <p>
+      <em>This <a href="https://github.com/aoschwartz7/LanguageQuiz">Python-Flask application</a>
+        uses JSON representations of vocabulary dictionaries to help users learn a language via flashcards.
+        The inspiration behind it came from living in Berlin, Germany, in the Fall of 2019 where I was taking
+        language courses. To access my Git repository for the game's files and for a more in depth walkthrough,
+        click <a href="https://github.com/aoschwartz7/LanguageQuiz">here</a>.
+      </em>
+    </p>
+
+    <img src="/site/WalkthroughTerminalimage.png" alt="Language Learner's App" width="500" height="333">
+
+<hr />
+  <span>Twilio Riddler<c>March 2020</c></span>
+    <p>
+      <em>This <a href="https://github.com/aoschwartz7/Twilio">Python-Flask application</a> sends a user an SMS of a random riddle, listens for their response via a Twilio webhook,
+      and sends either the answer or a new riddle. It was built using Flask architecture and <a href="https://www.twilio.com/docs/sms/tutorials/how-to-send-sms-messages-python">Twilio’s</a> Programmable SMS API and Python helper library.
+      </em>
+    </p>
