@@ -3,7 +3,21 @@ layout: default
 title: Alec Schwartz
 ---
 <hr />
-<span>Identifying Snakes in Photos Using Machine Learning<c>July -- November 2020</c></span>
+  <span>Global prediction of unreported SARS-CoV2 infection from observed COVID-19 cases<c>Fall 2020 - Spring 2022-</c></span>
+    <p>
+      <em>Many Covid-19 infections remain underreported due to mildness of symptoms and/or inadequate testing.
+      <a href="https://www.niddk.nih.gov/about-niddk/staff-directory/biography/chow-carson">Carson Chow’s lab</a> at the NIH
+      along with <a href="https://sols.asu.edu/richard-gerkin">Rick Gerkin</a> of Arizona State University used Bayesian inference
+      and a modified SIR model to predict the number of unreported infected individuals from reported cases, recoveries, and deaths.
+      I joined the project to further develop <a href="https://github.com/nih-niddk-mbs/covid-sicr">the code base</a> and continue testing modeling 
+      developments and public health advancements (vaccines, testing, etc). To showcase US state projections, I built an 
+        <a href="https://aoschwartz.shinyapps.io/COVID-ShinyAnimated/">R Shiny app</a>.
+      </em>
+    </p>
+    <img src="/site/coronavirus-map.jpg" alt="coronavirus global map" width="500" height="333">
+
+<hr />
+<span>Identifying Snakes in Photos Using Machine Learning<c>July - November 2020</c></span>
   <p>
     <em>
       <a href="https://www.dickinson.edu/site/custom_scripts/dc_faculty_profile_index.php?fac=bobacks">Professor Scott Boback</a> of 
@@ -17,8 +31,8 @@ title: Alec Schwartz
   </p>
   <p>
     <em>
-      I built a pre-liminary platform for using a custom object detection model for automating this process.
-      Technology I used includes: TensorFlow, Keras, LabelIMG, ImageAI, and the object detection system YOLOv3.
+      I wrote <a href="https://docs.google.com/document/d/1IyB_LPIuemESRE3MTp9nx4Y6qML2LXpSvUSIpuDFvHQ/edit">a collection of scripts</a> that use a custom object detection model for automating this process.
+      Technology I used includes: YOLOv3, TensorFlow, Keras, LabelIMG, ImageAI. 
       Code for this project uses Google Colab for access to Google’s GPUs. The dataset for model training can be found
       <a href="https://github.com/aoschwartz7/ML_Snakes">here</a> on GitHub.
     </em>
@@ -26,43 +40,34 @@ title: Alec Schwartz
   <img src="/site/snakes.jpg" alt="Snakes" width="500" height="333">
 
 <hr />
-  <span>NIH NIDDK Covid-19 Open-source Contribution<c>July 2020</c></span>
+  <span>Recipe Book<c>Summer 2022</c></span>
     <p>
-      <em>Many Covid-19 infections remain unreported due to mildness of symptoms and/or inadequate testing.
-      <a href="https://www.niddk.nih.gov/about-niddk/staff-directory/biography/chow-carson">Carson Chow’s lab</a> at the NIH
-      along with <a href="https://sols.asu.edu/richard-gerkin">Rick Gerkin</a> of Arizona State University are using Bayesian inference
-      and a modified SIR model to predict the number of unreported infected individuals from reported cases, recoveries, and deaths.
-      <a href="https://github.com/nih-niddk-mbs/covid-sicr">Their code</a> uses a suite of models of varying complexity to
-      calculate these numbers for different regions,and then produces an average result across models for each region.
-      For a preprint of their paper, click <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7239078/">here</a> .
+      <em><a href="https://github.com/aoschwartz7/RecipeMaker">Python-Flask application</a> that uses Restful APIs to allow users 
+        to create, modify, and update recipes in a Recipe Book.
       </em>
     </p>
-    <p>
-      <em>My task was to produce an average result (mean deaths, cases, etc) for a user-defined super-region, like “Asia”,
-        “Southern Asia”, or the United States. I familiarized myself with Pandas,
-        using it to parse information on world countries into a format useful for the researchers’
-        existing scripts. I then modified their <a href="https://github.com/nih-niddk-mbs/covid-sicr/pull/7">existing code</a>
-        to include a parameter for selecting a super-region and extending the results to region-indexed tables.
-      </em>
-    </p>
-    <img src="/site/coronavirus-map.jpg" alt="coronavirus global map" width="500" height="333">
-
 
 <hr />
-  <span>Language Learner's Quiz<c>November-January 2020</c></span>
+  <span>Antique Car Forum Web Scraper<c>Summer 2022</c></span>
+    <p>
+      <em> <a href="https://github.com/aoschwartz7/Web-Scraper-for-a-Forum">Python web scraper</a> that uses BeautifulSoup to scrape data from an antique cars forum. Code utilizes the Asynchronous HTTP Client/Server for asyncio and Python (AIOHTTP) to run multiple GET requests in parallel. 
+      </em>
+    </p>
+
+<hr />
+  <span>Language Learner's Quiz<c>Winter 2020</c></span>
     <p>
       <em>This <a href="https://github.com/aoschwartz7/LanguageQuiz">Python-Flask application</a>
         uses JSON representations of vocabulary dictionaries to help users learn a language via flashcards.
         The inspiration behind it came from living in Berlin, Germany, in the Fall of 2019 where I was taking
-        language courses. To access my Git repository for the game's files and for a more in depth walkthrough,
-        click <a href="https://github.com/aoschwartz7/LanguageQuiz">here</a>.
+        language courses.
       </em>
     </p>
 
     <img src="/site/WalkthroughTerminalimage.png" alt="Language Learner's App" width="500" height="333">
 
 <hr />
-  <span>Twilio Riddler<c>March 2020</c></span>
+  <span>Twilio Riddler<c>Spring 2020</c></span>
     <p>
       <em>This <a href="https://github.com/aoschwartz7/Twilio">Python-Flask application</a> sends a user an SMS of a random riddle, listens for their response via a Twilio webhook,
       and sends either the answer or a new riddle. It was built using Flask architecture and <a href="https://www.twilio.com/docs/sms/tutorials/how-to-send-sms-messages-python">Twilio’s</a> Programmable SMS API and Python helper library.
